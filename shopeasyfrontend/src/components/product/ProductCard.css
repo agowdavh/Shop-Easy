@@ -1,0 +1,122 @@
+.product-card{
+
+    width:100%;
+    height:100%;
+
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.product-image{
+
+    position:relative;
+
+}
+
+.product-image img{
+
+    width:100%;
+    height:220px;
+    object-fit:cover;
+
+}
+
+.discount-badge{
+
+    position:absolute;
+    top:12px;
+    left:12px;
+    background:#dc3545;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:5px;
+    font-size:13px;
+    font-weight:600;
+
+}
+
+.product-content{
+
+    padding:18px;
+
+}
+
+.product-content h5{
+
+    font-size:20px;
+    margin-bottom:8px;
+
+}
+
+.brand{
+
+    color:gray;
+    margin-bottom:12px;
+
+}
+
+.product-content h4{
+
+    color:#198754;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.product-buttons{
+
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+
+}
+
+.cart-btn{
+
+    flex:1;
+    border:none;
+    background:#0d6efd;
+    color:white;
+    border-radius:8px;
+    padding:10px;
+    transition:.3s;
+
+}
+
+.cart-btn:hover{
+
+    background:#0b5ed7;
+
+}
+
+.view-btn{
+
+    flex:1;
+    text-decoration:none;
+    text-align:center;
+    background:#212529;
+    color:white;
+    border-radius:8px;
+    padding:10px;
+    transition:.3s;
+
+}
+
+.view-btn:hover{
+
+    background:#000;
+    color:white;
+
+}
